@@ -83,7 +83,7 @@ if (accountNumber.length <11){
    return;
 }
 
-if(pin !== validCoupon) {
+if(pin !== validPin) {
    alert("Please provide valid pin number")
    return;
 
