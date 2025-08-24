@@ -291,3 +291,11 @@ document.getElementById("transactions-button").addEventListener("click", functio
    handleToggle("transactions-parent")
    handleButtonToggle("transactions-button")
 })
+
+
+document.getElementById("logoutButton").addEventListener("click", function (e){
+
+e.preventDefault()
+
+window.location.href="./index.html"
+})
